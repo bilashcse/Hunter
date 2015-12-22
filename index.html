@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hunter</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="icon" href="images/shoot.png" type="image/png" sizes="16x16">
+</head>
+<body style="background-color: rgba(0,0,0, 0.8);" onload="Shoting.start()">
+
+    <div class="main">
+        <audio id="gunshot" src="tunes/gs.mp3" volume="2"></audio>
+        <audio id="reload" src="tunes/reload.mp3"></audio>
+        <audio id="empty" src="tunes/empty.mp3"></audio>
+        <audio id="dead" src="tunes/dead_bird.mp3"></audio>
+        <audio id="jungle" src="tunes/jungle.mp3" autoplay></audio>
+
+
+
+
+        <p id="level" style="position: absolute; top: 0; font-size: 15px; color: #fff; margin: 5px;">Level : 1</p>
+        <p id="killed" style="position: absolute; bottom: 0; font-size: 15px; color: #fff; margin: 5px;">Killed : 0 birds</p>
+        <p id="bullet" style="position: absolute; top: 0; right: 0px; font-size: 15px; color: #fff; margin: 5px;">Bullet : 25 left</p>
+        <p id="missed" style="position: absolute; bottom: 0; right: 0px; font-size: 15px; color: #fff; margin: 5px;">Missed : 0 birds</p>
+
+        <div class="man"></div>
+
+        <div class="dashboard">
+            <div class="play-btn">Play Game</div>
+        </div>
+
+        <div class="result" style="display: none;">
+            <div class="result_board">Level : 123 </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,206 @@
+.main{
+    height: 400px;
+    width: 600px;
+    margin: 0px auto;
+    background-image: url('images/a.jpg');
+    background-repeat: no-repeat;
+    cursor: url('images/shoot.png'),auto;
+    overflow: hidden;
+    position: absolute;
+}
+
+.dashboard{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.result{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+    background-color: rgba(0,0,0,0.6);
+}
+.result_board{
+    background-color: rgba(0,0,0,1.8);
+    color: #fff;
+    width: 250px;
+    height: 200px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 21px;
+    padding: 17px 0px 0px 0px;
+    margin-left : 30%;
+    margin-top : 18%;
+    text-align: center;
+}
+.play-btn{
+    background-color: rgba(0,0,0,1.8);
+    color: #fff;
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 21px;
+    padding: 17px 0px 0px 0px;
+    margin-left : 30%;
+    margin-top : 25%;
+}
+.man{
+    position: absolute;
+    bottom: 2px;
+    right: 150px;
+    background-image: url('dance/1.png');
+    background-repeat: no-repeat;
+    width: 77px;
+    height: 112px;
+    background-size: 100% 100%;
+    z-index: 999;
+    -webkit-animation: dance infinite 1s;
+}
+
+@-webkit-keyframes dance {
+
+    15%{
+        background-image: url('dance/1.png');
+    }
+    33%{
+        background-image: url('dance/2.png');
+    }
+    50%{
+        background-image: url('dance/3.png');
+    }
+    65%{
+        background-image: url('dance/4.png');
+    }
+    80%{
+        background-image: url('dance/5.png');
+    }
+    100%{
+
+        background-image: url('dance/6.png');
+    }
+
+
+}
+.birdA{
+    height: 42px;
+    width:50px;
+    background-image: url('birds/a1.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    -webkit-animation: birdsA infinite 1s;
+}
+.birdB{
+    height: 42px;
+    width:60px;
+    background-image: url('birds/b1.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    -webkit-animation: birdsB infinite 1s;
+}
+.birdC{
+    height: 60px;
+    width:80px;
+    background-image: url('birds/n/n1.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0px;
+    -webkit-animation: birdsC infinite 1s;
+
+}
+
+@-webkit-keyframes birdsA {
+    25% {
+        background-image: url('birds/a1.png');
+    }
+    50% {
+        background-image: url('birds/a2.png');
+    }
+    75% {
+        background-image: url('birds/a3.png');
+    }
+    100% {
+        background-image: url('birds/a4.png');
+    }
+}
+
+@-webkit-keyframes birdsB {
+    10% {
+        background-image: url('birds/b1.png');
+    }
+    20% {
+        background-image: url('birds/b2.png');
+    }
+    30% {
+        background-image: url('birds/b3.png');
+    }
+    40% {
+        background-image: url('birds/b4.png');
+    }
+    50% {
+        background-image: url('birds/b5.png');
+    }
+    60% {
+        background-image: url('birds/b6.png');
+    }
+    70% {
+        background-image: url('birds/b7.png');
+    }
+    80% {
+        background-image: url('birds/b8.png');
+    }
+    90% {
+        background-image: url('birds/b9.png');
+    }
+    100% {
+        background-image: url('birds/b10.png');
+    }
+}
+
+
+@-webkit-keyframes birdsC {
+    10% {
+        background-image: url('birds/n/n1.png');
+    }
+    30% {
+        background-image: url('birds/n/n2.png');
+    }
+    45% {
+        background-image: url('birds/n/n3.png');
+    }
+    65% {
+        background-image: url('birds/n/n4.png');
+    }
+    75% {
+        background-image: url('birds/n/n5.png');
+    }
+    85% {
+        background-image: url('birds/n/n6.png');
+    }
+    100% {
+        background-image: url('birds/n/n7.png');
+    }
+}
+
+@-webkit-keyframes rotate {
+    25% {
+        transform: rotate(90deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    75% {
+        transform: rotate(270deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
