@@ -65,6 +65,27 @@
     z-index: 999;
     -webkit-animation: dance infinite 1s;
 }
+.jungle_man{
+    position: absolute;
+    bottom: 2px;
+    right: 245px;
+    background-image: url('dance/j1.png');
+    background-repeat: no-repeat;
+    width: 77px;
+    height: 112px;
+    background-size: 100% 100%;
+    z-index: 999;
+    -webkit-animation: dancing infinite 1s;
+}
+
+@-webkit-keyframes dancing {
+    50%{
+        background-image: url('dance/j1.png');
+    }
+    100%{
+        background-image: url('dance/j2.png');
+    }
+}
 
 @-webkit-keyframes dance {
 
